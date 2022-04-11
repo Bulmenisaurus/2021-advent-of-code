@@ -11,7 +11,7 @@ fn main() {
 
     for pair in lines.windows(2) {
         if pair[1] > pair[0] {
-            total = total + 1;
+            total += 1;
         }
     }
 
